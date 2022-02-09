@@ -1,0 +1,24 @@
+body {
+	background-color: rgb(94, 94, 221);
+}
+.title {
+	color: rgb(255, 255, 255);
+	font-size: 4em;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-shadow: 2px 2px 4px rgb(73, 73, 73), -2px -2px 4px rgb(73, 73, 73);
+}
+.flex_container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.whitediv {
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgb(73, 73, 73), -2px -2px 4px rgb(73, 73, 73);
+}
