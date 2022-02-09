@@ -1,5 +1,6 @@
 <?php
 
+
 $my_str=$_GET['string'];
 $trimmed_str_at_start = ltrim($my_str); //remove spaces from start
 $trimmed_str_at_end = rtrim($trimmed_str_at_start); //remove spaces from end
