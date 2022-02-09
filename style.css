@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(94, 94, 221);
+	background-color: rgb(106, 106, 233);
 }
 .title {
 	color: rgb(255, 255, 255);
@@ -17,8 +17,40 @@ body {
 .whitediv {
 	height: 300px;
 	width: 300px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px rgb(73, 73, 73), -2px -2px 4px rgb(73, 73, 73);
+	text-align: center;
+}
+.divtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color: rgb(42, 68, 107);
+}
+.divdetails {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: rgb(42, 68, 107);
+}
+hr {
+	border-top: 5px dotted rgb(129, 139, 129);
+	width: 50%;
+}
+.input {
+	width: 30%;
+}
+.submit {
+	background-color: rgb(135, 22, 150);
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+	margin-top: 10px;
+}
+.submit:hover {
+	background-color: rgba(153, 76, 172, 0.767);
+	cursor: pointer;
 }
