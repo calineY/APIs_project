@@ -54,3 +54,13 @@ hr {
 	background-color: rgba(153, 76, 172, 0.767);
 	cursor: pointer;
 }
+.div2 {
+	padding-bottom: 15px;
+}
+.submit2 {
+	margin-top: 35px;
+}
+#spacedhr {
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
