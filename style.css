@@ -60,7 +60,11 @@ hr {
 .submit2 {
 	margin-top: 35px;
 }
-#spacedhr {
+.spacedhr {
 	margin-top: 20px;
-	margin-bottom: 35px;
+	margin-bottom: 23px;
+}
+.frame_res {
+	width: 300px;
+	word-wrap: break-word;
 }
