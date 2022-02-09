@@ -1,5 +1,6 @@
 <?php
 
+header("Access-Control-Allow-Origin: *");
 
 $word=$_GET['word'];
 $result=true;

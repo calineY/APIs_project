@@ -1,5 +1,6 @@
 <?php
 
+header("Access-Control-Allow-Origin: *");
 
 $my_str=$_GET['string'];
 $trimmed_str_at_start = ltrim($my_str); //remove spaces from start
