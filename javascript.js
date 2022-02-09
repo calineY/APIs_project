@@ -11,10 +11,14 @@ let api3btn=document.getElementById("api3submit");
 let is_palindrome_result=document.getElementById("api3result");
 let string_palindrome=document.getElementById("string_palindrome");
 
+let api4btn=document.getElementById("api4submit");
+let password_result=document.getElementById("api4result");
+let password=document.getElementById("password");
 
 api1btn.addEventListener("click",calculate);
 api2btn.addEventListener("click",removeSpaces);
 api3btn.addEventListener("click",isPalindrome);
+api4btn.addEventListener("click",isSecure);
 
 
 async function calculate(){
@@ -49,4 +53,15 @@ async function isPalindrome(){
     const response=await fetch(`http://localhost/APIs_project/PHP/palindromeAPI.php?word=${my_str}`);
     res=await response.json();
     is_palindrome_result.textContent="Result: "+ res.result;
+}
+async function isSecure(){
+    let my_str=password.value;
+    if (my_str===''){
+        password_result.textContent="Please input a password first.";
+        return;
+    }
+    const response=await fetch(`http://localhost/APIs_project/PHP/passwordAPI.php?password=${my_str}`);
+    res=await response.json();
+    password_result.innerHTML="Result: "+ res.passedTest+"<br>";
+    password_result.innerHTML=password_result.innerHTML+"Hashed version: "+ res.hashed;
 }
